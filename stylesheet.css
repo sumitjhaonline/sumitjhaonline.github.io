@@ -1,0 +1,49 @@
+#header-paragraph{
+ display:block;
+  text-align:center;
+  font-size:40px;
+  font-family:neonderthaw;
+  color:purple;
+  margin:0px;
+  padding:0px;
+}
+#nav-links{
+  background-color:lightgreen;
+  padding:10px;
+  
+}
+.double-size:hover{
+  background:black;
+}
+.double-size{
+  margin:5px;
+  padding:5px;
+}
+main{
+  background-color:gray;
+}
+a{
+  font-size:1.5em;
+}
+img{
+  float:right;
+  height:200px;
+  width:auto;
+}
+#nav-bar{
+  display:inline;
+  position:fixed;
+  background:gray;
+}
+a{
+  display:flex;
+}
+#article{
+  float:right;
+  width:80%;
+}
+@media (max-width:480px){
+  img{
+    height:60px;
+  }
+}
